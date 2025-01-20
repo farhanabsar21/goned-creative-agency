@@ -2,7 +2,7 @@ import { Slide } from "@/@types";
 import { slides } from "@/assets/data";
 import CircleIcon from "@/assets/icons/CircleIcon";
 import DashIcon from "@/assets/icons/DashIcon";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function OurService() {
   const [currentIndex, setCurrentIndex] = useState<number>(0);

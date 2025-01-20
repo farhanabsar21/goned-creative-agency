@@ -1,9 +1,10 @@
-import React, { useState } from "react";
 import OurService from "@/components/OurService";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="App">
+      <Hero />
       <OurService />
     </div>
   );
