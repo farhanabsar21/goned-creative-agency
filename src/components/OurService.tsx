@@ -3,6 +3,7 @@ import { slides } from "@/assets/data";
 import CircleIcon from "@/assets/icons/CircleIcon";
 import DashIcon from "@/assets/icons/DashIcon";
 import { useEffect, useState } from "react";
+import { color } from "./common/constant";
 
 export default function OurService() {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -89,7 +90,11 @@ export default function OurService() {
                       className="w-[12px] h-[12px] flex items-center justify-center"
                       onClick={() => onChangeSlide(index)}
                     >
-                      {currentIndex === index ? <CircleIcon /> : <DashIcon />}
+                      {currentIndex === index ? (
+                        <CircleIcon color={color.black} />
+                      ) : (
+                        <DashIcon color={color.black} />
+                      )}
                     </button>
                   );
                 })}

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CircleIcon() {
+export default function CircleIcon({ color }: { color: string }) {
   return (
     <svg
       width="8"
@@ -9,7 +9,7 @@ export default function CircleIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="4" cy="4" r="3.5" stroke="black" />
+      <circle cx="4" cy="4" r="3.5" stroke={color} />
     </svg>
   );
 }

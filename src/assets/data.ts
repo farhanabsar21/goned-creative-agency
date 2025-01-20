@@ -35,3 +35,18 @@ export const slides = [
     desc: "Fostering trust through clear communication and dependable service",
   },
 ];
+
+export const heroTitles = [
+  {
+    id: 1,
+    title: "Completely in your - control",
+  },
+  {
+    id: 1,
+    title: "Mastering Every Detail Impacts",
+  },
+  {
+    id: 1,
+    title: "Vision, Infinite Possibilities",
+  },
+];

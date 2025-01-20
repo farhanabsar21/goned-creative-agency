@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DashIcon() {
+export default function DashIcon({ color }: { color: string }) {
   return (
     <svg
       width="8"
@@ -9,7 +9,7 @@ export default function DashIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <line y1="0.5" x2="8" y2="0.5" stroke="black" />
+      <line y1="0.5" x2="8" y2="0.5" stroke={color} />
     </svg>
   );
 }

@@ -5,6 +5,11 @@ export interface Slide {
   desc: string;
 }
 
+export interface heroTitle {
+  id: number;
+  title: string;
+}
+
 export type LocationData = {
   address: {
     city?: string;

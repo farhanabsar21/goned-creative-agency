@@ -16,3 +16,8 @@ export const getFormatTime = (time: Date, timezone: string): string => {
 export const getLocation = (location: string) => {
   return location.split(",")[0].trim();
 };
+
+export const getCurrentYear = () => {
+  const currentYear = new Date().getFullYear();
+  return `(${currentYear})`;
+};
