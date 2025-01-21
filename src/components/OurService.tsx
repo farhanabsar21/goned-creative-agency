@@ -36,7 +36,7 @@ export default function OurService() {
   }, [currentIndex, isAnimating, getNextSlide]);
 
   return (
-    <div className="h-screen bg-primary py-[3rem] px-[4rem]">
+    <div className="h-screen max-h-[44.375rem] bg-primary py-[3rem] px-[4rem]">
       <div className="h-full w-full">
         <div className="slider-container h-full w-full max-h-[calc(100vh-6rem)] grid grid-cols-2 overflow-hidden">
           <div className="slider-content max-h-[calc(100vh-6rem)] py-[3rem] pr-[6rem] flex flex-col justify-between">
@@ -51,7 +51,7 @@ export default function OurService() {
                 {slides[currentIndex].desc}
               </h1>
             </div>
-            <div className="flex h-[38rem] items-end">
+            <div className="flex items-end">
               <div className="w-[75%]">
                 {slides.map((slide: Slide, index: number) => {
                   return (

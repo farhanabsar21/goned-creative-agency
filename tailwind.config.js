@@ -8,8 +8,12 @@ export default {
         secondary: "#090b0f",
         white: "#ffffff",
         lightGreen: "#e7f2e7",
+        gonedSoil: "#ebe3da",
         fade: "#9fa09b",
         icon: "#f6742b",
+      },
+      letterSpacing: {
+        "extra-wide": "0.5em",
       },
     },
   },

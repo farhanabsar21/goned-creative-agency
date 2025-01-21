@@ -19,3 +19,13 @@ export type LocationData = {
     country?: string;
   };
 };
+export interface CardType {
+  data: {
+    id: number;
+    type?: string;
+    image?: string;
+    title?: string;
+    user?: string;
+    designation?: string;
+  };
+}

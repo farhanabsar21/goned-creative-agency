@@ -9,6 +9,7 @@ import {
 } from "@/utils/time-date-format";
 import React, { useEffect, useMemo, useState } from "react";
 import { color, punchline } from "./common/constant";
+import { scrollDown } from "@/utils/scroll-down";
 
 export default function Hero() {
   const [time, setTime] = useState<Date>(new Date());
@@ -40,6 +41,10 @@ export default function Hero() {
     }
   };
 
+  const onScrollDown = () => {
+    scrollDown();
+  };
+
   useEffect(() => {
     const timer = setInterval(() => {
       setTime(new Date());
@@ -56,7 +61,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <header className="h-screen bg-secondary w-full relative">
+    <header className="h-screen max-h-[50rem] bg-secondary w-full relative z-1">
       <nav className="px-12 py-6 flex justify-between items-center">
         <div className="flex gap-[12rem] items-center">
           <h1 className="text-3xl font-bold text-white">goned</h1>
@@ -110,8 +115,11 @@ export default function Hero() {
           <p className="w-[70%] text-white">{punchline}</p>
         </div>
       </section>
-      <section>
-        <p>scroll down</p>
+      <section
+        className="absolute left-[4rem] bottom-[8rem] transform -rotate-90 cursor-pointer"
+        onClick={onScrollDown}
+      >
+        <p className="text-white tracking-extra-wide opacity-80">scroll down</p>
       </section>
     </header>
   );
