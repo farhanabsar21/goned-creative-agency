@@ -19,13 +19,19 @@ export type LocationData = {
     country?: string;
   };
 };
-export interface CardType {
-  data: {
-    id: number;
-    type?: string;
-    image?: string;
-    title?: string;
-    user?: string;
-    designation?: string;
-  };
+export interface CardData {
+  id: number;
+  type: "solid" | "image" | "testimonial";
+  backgroundColor?: string;
+  backgroundImage?: string;
+  icon?: React.ReactNode;
+  title?: string;
+  userImage?: string;
+  quote?: string;
+  name?: string;
+  designation?: string;
+}
+
+export interface CardProps {
+  card: CardData;
 }

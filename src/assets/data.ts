@@ -1,3 +1,5 @@
+import { CardData } from "@/@types";
+
 export const slides = [
   {
     id: 1,
@@ -51,31 +53,25 @@ export const heroTitles = [
   },
 ];
 
-export const cardData = [
+export const cardData: CardData[] = [
   {
     id: 1,
-    type: "primary",
+    type: "solid",
     title: "Compensation Planning",
-    image: "",
-    user: "",
-    designation: "",
   },
   {
     id: 2,
-    type: "background",
-    image:
+    type: "image",
+    backgroundImage:
       "https://images.unsplash.com/photo-1520881363902-a0ff4e722963?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "",
-    user: "",
-    designation: "",
   },
   {
     id: 3,
-    type: "review",
-    image:
+    type: "testimonial",
+    userImage:
       "https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "",
-    user: "",
-    designation: "",
+    quote: "transforming business with the power of the cloud, our saas",
+    name: "Henry Juanda",
+    designation: "creative director",
   },
 ];

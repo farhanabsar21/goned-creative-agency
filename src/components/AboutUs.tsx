@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div className="h-[10rem] bg-primary">
         <div className="flex absolute right-0 bottom-0">
           {cardData.map((data, index) => {
-            return <Card data={data} key={index} />;
+            return <Card card={data} key={index} />;
           })}
         </div>
       </div>

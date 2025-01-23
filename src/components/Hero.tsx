@@ -7,7 +7,7 @@ import {
   getFormatTime,
   getLocation,
 } from "@/utils/time-date-format";
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { color, punchline } from "./common/constant";
 import { scrollDown } from "@/utils/scroll-down";
 
