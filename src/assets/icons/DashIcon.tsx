@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function DashIcon({ color }: { color: string }) {
   return (
     <svg

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function RightArrow({ color }: { color: string }) {
   return (
     <svg

@@ -60,6 +60,7 @@ const useGeolocation = () => {
             "Please enable location services or enter your location manually"
           );
           setIsLoading(false);
+          return err;
         }
       );
     } else {

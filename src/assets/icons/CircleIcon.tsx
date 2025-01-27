@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function CircleIcon({ color }: { color: string }) {
   return (
     <svg
