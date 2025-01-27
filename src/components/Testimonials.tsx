@@ -4,6 +4,7 @@ import QuoteRightIcon from "@/assets/icons/QuoteRightIcon";
 import StarIcon from "@/assets/icons/StarIcon";
 import LeftDirectionIcon from "@/assets/icons/LeftDirectionIcon";
 import RightDirectionIcon from "@/assets/icons/RightDirectionIcon";
+import greenBg from "@/assets/images/green_meeting.jpg";
 
 export default function Testimonials() {
   const [currentTestimonialIndex, setTestimonialIndex] = useState<number>(0);
@@ -44,7 +45,7 @@ export default function Testimonials() {
       <div
         className="h-[35rem] w-full mt-[3rem] flex items-center justify-center"
         style={{
-          background: `url('/src/assets/images/green_meeting.jpg')`,
+          background: `url(${greenBg})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
