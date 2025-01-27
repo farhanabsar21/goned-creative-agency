@@ -9,7 +9,7 @@ export default function LayersIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_403_3440)">
+      <g clipPath="url(#clip0_403_3440)">
         <path
           d="M23.9443 7.66163L12.0003 0.499634L0.0562744 7.66163L12.0003 14.8276L23.9443 7.66163ZM12.0003 2.82763L20.0563 7.66163L12.0003 12.4996L3.94427 7.66163L12.0003 2.82763Z"
           fill="#fff"

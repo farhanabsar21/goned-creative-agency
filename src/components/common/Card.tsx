@@ -8,12 +8,12 @@ export default function Card({ card }: CardProps) {
   switch (card.type) {
     case "solid":
       return (
-        <div className={`h-[24rem] w-[20rem] p-[2rem] bg-lightGreen relative`}>
+        <div className={`h-[26rem] w-[22rem] p-[2rem] bg-lightGreen relative`}>
           <div className="absolute left-5 top-5 h-[3.5rem] w-[3.5rem] bg-secondary flex justify-center items-center rounded-full">
             <LayersIcon />
           </div>
           <div className="w-[50%] mt-[6rem]">
-            <p className="text-3xl font-medium text-secondary">{card.title}</p>
+            <p className="text-4xl font-medium text-secondary">{card.title}</p>
           </div>
           <div className="absolute bottom-6 right-6">
             <ForwardButton color="black" />
@@ -23,7 +23,7 @@ export default function Card({ card }: CardProps) {
     case "image":
       return (
         <div
-          className="h-[24rem] w-[20rem] p-[3rem] bg-center bg-no-repeat bg-cover relative"
+          className="h-[26rem] w-[22rem] p-[3rem] bg-center bg-no-repeat bg-cover relative"
           style={{
             backgroundImage: `url(${
               card.backgroundImage || cardBackgroundURI
@@ -37,7 +37,7 @@ export default function Card({ card }: CardProps) {
       );
     case "testimonial":
       return (
-        <div className="h-[24rem] w-[20rem] bg-gonedSoil p-6 relative">
+        <div className="h-[26rem] w-[22rem] bg-gonedSoil p-6 relative">
           <div className="h-[3rem] w-[3rem] rounded-full overflow-hidden">
             <img
               className="h-full w-full object-cover"

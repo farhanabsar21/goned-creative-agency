@@ -35,3 +35,16 @@ export interface CardData {
 export interface CardProps {
   card: CardData;
 }
+
+export interface Testimonial {
+  id: number | string;
+  image: string;
+  rating: number;
+  review: string;
+  name: string;
+  title: string;
+}
+
+export interface TestimonialProps {
+  feedback: Testimonial;
+}
