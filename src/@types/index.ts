@@ -48,3 +48,17 @@ export interface Testimonial {
 export interface TestimonialProps {
   feedback: Testimonial;
 }
+
+export interface Blogs {
+  id: number | string;
+  title: string;
+  company: string;
+  value: string;
+  date: string;
+}
+
+export interface FollowUs {
+  id: number | string;
+  image: string;
+  isPlayable: boolean;
+}

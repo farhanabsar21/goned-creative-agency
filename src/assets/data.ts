@@ -1,4 +1,4 @@
-import { CardData, Testimonial } from "@/@types";
+import { Blogs, CardData, FollowUs, Testimonial } from "@/@types";
 import adobeLogo from "@/assets/images/adobe_logo.png";
 import airBnbLogo from "@/assets/images/airbnb_logo.png";
 import atlassianLogo from "@/assets/images/atlassian_logo.png";
@@ -196,5 +196,88 @@ export const customerFeedbacks: Testimonial[] = [
       "We appreciate the detailed analytics and reports. It’s given us actionable insights we didn’t have before.",
     name: "Carlos Martinez",
     title: "Data Analyst",
+  },
+];
+
+export const BlogData: Blogs[] = [
+  {
+    id: 1,
+    title:
+      "Achieve greater efficiency and accuracy with a compensation solution designed to give you real-time data, insightful analytics.",
+    company: "Trustpilot",
+    value: "2.5M",
+    date: "JAN 7 2025",
+  },
+
+  {
+    id: 2,
+    title:
+      "Empower your HR team with a platform that simplifies compensation planning and ensures transparency across the board.",
+    company: "Trustpilot",
+    value: "12.00",
+    date: "OCT 7 2024",
+  },
+];
+
+export const followUsData: FollowUs[] = [
+  {
+    id: 1,
+    image:
+      "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    isPlayable: false,
+  },
+  {
+    id: 2,
+    image:
+      "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
+    isPlayable: false,
+  },
+  {
+    id: 3,
+    image:
+      "https://images.unsplash.com/photo-1531497258014-b5736f376b1b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8",
+    isPlayable: false,
+  },
+  {
+    id: 4,
+    image:
+      "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+    isPlayable: true,
+  },
+  {
+    id: 5,
+    image:
+      "https://images.unsplash.com/photo-1702047129200-89734f555f38?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
+    isPlayable: false,
+  },
+  {
+    id: 6,
+    image:
+      "https://images.unsplash.com/photo-1559136656-3db4bf6c35f8?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    isPlayable: true,
+  },
+  {
+    id: 7,
+    image:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    isPlayable: true,
+  },
+  {
+    id: 8,
+    image:
+      "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    isPlayable: false,
+  },
+  {
+    id: 9,
+    image:
+      "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    isPlayable: true,
+  },
+  {
+    id: 10,
+    image:
+      "https://images.unsplash.com/photo-1500898335608-a4b6696f81a5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    isPlayable: false,
   },
 ];

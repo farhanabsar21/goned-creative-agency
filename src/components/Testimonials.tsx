@@ -5,6 +5,7 @@ import StarIcon from "@/assets/icons/StarIcon";
 import LeftDirectionIcon from "@/assets/icons/LeftDirectionIcon";
 import RightDirectionIcon from "@/assets/icons/RightDirectionIcon";
 import greenBg from "@/assets/images/green_meeting.jpg";
+import Badge from "./common/Badge";
 
 export default function Testimonials() {
   const [currentTestimonialIndex, setTestimonialIndex] = useState<number>(0);
@@ -35,9 +36,7 @@ export default function Testimonials() {
   return (
     <div className="p-[3rem] bg-primary">
       <div className="flex flex-col items-center justify-center">
-        <div className="w-[8rem] h-[1.5rem] bg-lightGreen flex items-center justify-center rounded-full text-sm">
-          Testimonials
-        </div>
+        <Badge title="Testimonial" />
         <div className="text-[3rem] capitalize mt-[1.5rem]">
           Our happy customers say
         </div>
