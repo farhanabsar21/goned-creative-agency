@@ -4,8 +4,8 @@ import PlayIcon from "@/assets/icons/PlayIcon";
 
 export default function FollowUs() {
   return (
-    <div className="bg-primary py-[2rem]">
-      <div className="flex items-center justify-center pt-[1rem] pb-[2rem]">
+    <div className="bg-primary pt-[2rem] pb-[4rem]">
+      <div className="flex items-center justify-center pt-[1rem] pb-[3rem]">
         <h2 className="text-[3rem]">Follow Us</h2>
       </div>
       <div className="w-full">
@@ -14,7 +14,7 @@ export default function FollowUs() {
             return (
               <div
                 key={index}
-                className="flex-none w-[12.5rem] h-[12.5rem] bg-slate-300 relative"
+                className="flex-none w-[12.5rem] h-[12.5rem] bg-slate-300 relative cursor-pointer"
               >
                 <img
                   src={item.image}
